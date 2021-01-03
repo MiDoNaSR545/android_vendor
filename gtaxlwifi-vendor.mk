@@ -34,6 +34,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin
 
+# Vulkan
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libvulkan.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvulkan.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libvulkan.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvulkan.so
+
 # MFC (Multi Format Codec) firmware - from M105FDDU3CTK3
 # Version information: "MFC v10.11, F/W: 19yy, 02mm, 08dd"
 PRODUCT_COPY_FILES += \
